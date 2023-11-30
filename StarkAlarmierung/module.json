@@ -1,0 +1,14 @@
+{
+    "id": "{71181B1F-82B9-4CC7-8A82-89715F67B92B}",
+    "name": "StarkAlarmierung",
+    "type": 3,
+    "vendor": "",
+    "aliases": [
+        "Stark Alarmierung"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "SARM",
+    "url": ""
+}

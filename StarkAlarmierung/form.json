@@ -34,39 +34,6 @@
             "values": []
         },
         {
-            "type": "Label",
-            "label": "Add/Delete target variables, which react on the alarm"
-        },
-        {
-            "type": "List",
-            "name": "Targets",
-            "caption": "Targetvariables",
-            "add": true,
-            "delete": true,
-            "sort": {
-                "column": "ID",
-                "direction": "ascending"
-            },
-            "columns": [
-                {
-                    "name": "ID",
-                    "caption": "Variable",
-                    "width": "auto",
-                    "add": 0,
-                    "edit": {
-                        "type": "SelectVariable"
-                    }
-                },
-                {
-                    "name": "Status",
-                    "label": "Status",
-                    "width": "120",
-                    "add": ""
-                }
-            ],
-            "values": []
-        },
-        {
             "type": "NumberSpinner",
             "name": "ActivateDelay",
             "caption": "Activation Delay",
