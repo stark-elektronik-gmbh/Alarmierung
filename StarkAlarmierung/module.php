@@ -141,7 +141,7 @@ class StarkAlarmierung extends IPSModule
         }
 
             $activeSensors = $this->GetValue('ActiveSensors');
-            $activeSensors .= '- ' . IPS_GetLocation($sensorID) . "\n";
+            $activeSensors .= '- ' . IPS_GetName($sensorID) . "\n";
             $this->WriteAttributeInteger('LastAlert', $sensorID);
             $this->SetValue('ActiveSensors', $activeSensors);
             IPS_SetHidden($this->GetIDForIdent('ActiveSensors'), false);
